@@ -4,7 +4,7 @@ import {Route, Link} from 'react-router-dom';
 import RaisedButton from 'material-ui/RaisedButton';
 
 const Lists = () => (
-    <div>
+    <div className="main">
         <a>333</a>
     </div>
 )

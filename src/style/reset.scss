@@ -1,5 +1,39 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+@import './param';
+html {font-size: 62.5%;line-height: 1.2;letter-spacing: 0.5px;background: $bgcolor;}
+body {font-size: 1.4rem; color: $fontcolor;background: $bgcolor;
+    font-family: "PingFangSC-Regular", "PingFang SC", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;
+    background-color: $bgcolor;letter-spacing:0;}
+* {padding: 0;margin: 0;}
+nav, header, section, ul, li, h1, h2, h3, h4, h5, h6, p, span, th, td, dt, dd, a
+{outline: none;letter-spacing:inherit;line-height: inherit;font-family: inherit !important;box-sizing: inherit;color: inherit !important;}
+ul {padding-left: 0;list-style-type: none;}
+ul {-webkit-margin-before: 0;-webkit-margin-after: 0;-webkit-margin-start: 0;-webkit-margin-end: 0;-webkit-padding-start: 0;}
+li {list-style-type: none;}
+h1, h2, h3, h4,  h5, h6, p, span, th, td, dt, dd, li, a {word-break: break-all; word-wrap: break-word;}
+a {text-decoration:none;color: inherit;cursor: pointer;}
+video {object-fit: contain;}
+button {border: 0;border: none;cursor: pointer;display: inline-block;}
+
+::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: #CCCCCC;
+    -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:vertical
+{
+    height: 5px;
+    background-color: #999999;
+    -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:horizontal
+{
+    width: 5px;
+    background-color: #CCCCCC;
+    -webkit-border-radius: 6px;
 }

@@ -1,0 +1,11 @@
+@import './param';
+.fn-clear {
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+    &:after {
+        content: '';
+        height: 0;
+        width: 0;
+    }
+}

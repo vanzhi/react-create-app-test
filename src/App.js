@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {BrowserRouter as Router, Link} from 'react-router-dom'
 import RootRouter from './routes/router-root'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import Top from './pages/top'
+import Left from './pages/left'
 
 class App extends Component {
     render() {
@@ -9,8 +11,9 @@ class App extends Component {
             <div>
                 <MuiThemeProvider>
                     <Router>
-                        <div>
-                            <Link to="/">首页</Link>
+                        <div className="fn-clear">
+                            <Top />
+                            <Left />
                             <RootRouter />
                         </div>
                     </Router>
