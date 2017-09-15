@@ -5,6 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Top from './pages/top'
 import Left from './pages/left'
 
+
 class App extends Component {
     render() {
         return (
